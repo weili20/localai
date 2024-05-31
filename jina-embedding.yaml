@@ -1,6 +1,6 @@
 name: jina-embedding
-backend: sentencetransformers
+backend: transformers
 embeddings: True
-model_base_name: jina-embeddings-v2-base-zh
+model_base_name: jina-embeddings-v2-base-en
 parameters:
-  model: jinaai/jina-embeddings-v2-base-zh
+  model: jinaai/jina-embeddings-v2-base-en
