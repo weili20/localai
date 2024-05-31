@@ -1,6 +1,6 @@
 name: jina-embedding
-backend: transformers
+backend: sentencetransformers
 embeddings: True
-model_base_name: jina-embeddings-v2-base-en
+model_base_name: jina-embeddings-v2-base-zh
 parameters:
-  model: jinaai/jina-embeddings-v2-base-en
+  model: huggingface://jinaai/jina-embeddings-v2-base-zh/pytorch_model.bin
