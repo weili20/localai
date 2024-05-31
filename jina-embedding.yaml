@@ -3,4 +3,4 @@ backend: sentencetransformers
 embeddings: True
 model_base_name: jina-embeddings-v2-base-zh
 parameters:
-  model: huggingface://jinaai/jina-embeddings-v2-base-zh
+  model: jinaai/jina-embeddings-v2-base-zh
